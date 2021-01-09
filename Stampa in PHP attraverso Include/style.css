@@ -1,0 +1,32 @@
+/* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole selettive */
+body {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    text-align: center;
+}
+h1 {
+    background-color: black;
+    padding: 15px;
+}
+.container {
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+.box {
+    background-color: black;
+    width: calc((100% / 3) - 20px);
+    padding: 15px;
+    margin: 10px 10px;
+}
+img {
+    width: 100%;
+}
